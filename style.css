@@ -140,19 +140,34 @@ main{
     color: var(--p-color);
 }
 
+.seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .panel2{
     background-color: var(--purple-800);
     display: flex;
+    width: 100%;
     max-width: 1022px;
     border-radius: 32px;
     margin: 30px 24px 30px 24px;
     padding: 32px 40px;
     gap: 32px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .contenido-panel2{
     justify-content: space-between;
     color: white;
+}
+
+.boton-vuela{
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px 32px;
+    font-weight: 600;
+    color: var(--purple-500);
 }
