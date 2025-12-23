@@ -10,6 +10,9 @@
     --purple-300: #E4D7FF;
     --purple-500: rgb(101,43,223);
     --purple-700: #580C72;
+    --purple-800: rgb(54,12,114);
+    --primary-color: #FCFBFF;
+    --p-color: #646464;
 }
 
 header{
@@ -77,4 +80,77 @@ nav ul li:hover{
     border-color: var(--purple-700);
     border: solid 1px;
     transition: background-color .3s, color .3s, infinite, alternate;
+}
+
+main{
+    background-color: red;
+    margin: 0 auto;
+}
+
+.h2-vuelo{
+    margin: 8px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seccion-paneles{
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+    max-width: 1022px;
+    padding: 0;
+}
+
+.panel {
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    min-height: 250px;
+    padding: 24px;
+    gap: 16px;
+}
+
+.panel div{
+    display: block;
+    padding: 16px;
+    background-color: var(--purple-300);
+    height: 57px;
+    width: 57px;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.panel div svg{
+    width: 25px;
+    height: 25px;
+}
+
+.panel h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.panel p{
+    font-size: 18px;
+    color: var(--p-color);
+}
+
+.panel2{
+    background-color: var(--purple-800);
+    display: flex;
+    border-radius: 32px;
+    margin: 30px 24px 30px 24px;
+    padding: 32px 40px;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-panel2{
+    color: white;
 }
