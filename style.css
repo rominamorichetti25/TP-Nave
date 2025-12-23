@@ -164,6 +164,14 @@ main{
     color: white;
 }
 
+.contenido-panel2 h2{
+    font-size: 30px;
+}
+
+.contenido-panel2 p{
+    font-size: 18px;
+}
+
 .boton-vuela{
     background-color: white;
     border-radius: 16px;
