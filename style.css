@@ -140,6 +140,11 @@ main{
     color: var(--p-color);
 }
 
+.panel:hover{
+    transform: translateY(-6px);
+    transition: transform .3s ease-out;
+}
+
 .seccion2{
     display: flex;
     justify-content: center;
@@ -178,4 +183,9 @@ main{
     padding: 10px 32px;
     font-weight: 600;
     color: var(--purple-500);
+}
+
+.boton-vuela:hover{
+    background-color: black;
+    transition: background-color .4s ease-out;
 }
