@@ -83,7 +83,7 @@ nav ul li:hover{
 }
 
 main{
-    background-color: var(--primary-color);
+    background-color: var(--purple-500);
     margin: 0 auto;
 }
 
@@ -188,4 +188,64 @@ main{
 .boton-vuela:hover{
     background-color: black;
     transition: background-color .4s ease-out;
+}
+
+.titulo-cobro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-cobro h2{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.titulo-cobro p{
+    font-size: 14px;
+    color: var(--p-color);
+    margin: 12px;
+}
+
+.seccion-cobro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subseccion1{
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    display: flex;
+    max-width: 1022px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.subseccion2{
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    display: flex;
+    max-width: 1022px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.subseccion1 img{
+    height: 100%;
+    width: 100%;
+    transform: scale(.8);
+}
+
+.subseccion2 img{
+    height: 100%;
+    width: 100%;
+    transform: scale(.8);
+    
 }
