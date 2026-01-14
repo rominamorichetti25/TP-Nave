@@ -298,6 +298,8 @@ footer{
     color: var(--p-color);
 }
 
+/*Parte responsive*/
+
 @media (max-width:500px) {
     body{
         height: 100vh;
